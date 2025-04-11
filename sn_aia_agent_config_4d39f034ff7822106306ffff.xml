@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_config">
+  <sn_aia_agent_config action="INSERT_OR_UPDATE">
+    <active>false</active>
+    <agent display_value="GitHub branch management AI agent">8139f034ff7822106306ffffffffffe5</agent>
+    <compiled_handbook>Handbook for GitHub Branch Management AI Agent
+This concludes the handbook for the GitHub Branch Management AI Agent. Follow these steps diligently to ensure smooth and efficient task execution.</compiled_handbook>
+    <sys_class_name>sn_aia_agent_config</sys_class_name>
+    <sys_created_by>abhishek.suryvanshi</sys_created_by>
+    <sys_created_on>2025-04-06 15:42:27</sys_created_on>
+    <sys_domain>global</sys_domain>
+    <sys_id>4d39f034ff7822106306ffffffffffe8</sys_id>
+    <sys_mod_count>15</sys_mod_count>
+    <sys_name/>
+    <sys_package display_value="GitHub Spoke" source="sn_github_spoke">9a025c563b22330006f1600713efc4cf</sys_package>
+    <sys_policy/>
+    <sys_scope display_value="GitHub Spoke">9a025c563b22330006f1600713efc4cf</sys_scope>
+    <sys_update_name>sn_aia_agent_config_4d39f034ff7822106306ffffffffffe8</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2025-04-07 07:59:12</sys_updated_on>
+  </sn_aia_agent_config>
+</record_update>
