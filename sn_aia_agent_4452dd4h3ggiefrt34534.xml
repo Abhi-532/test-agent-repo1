@@ -1,1 +1,2 @@
-The `proficiency` tag is empty. Actionable feedback: Add a value to the `proficiency` tag to meet the validation requirement.
+1. Line 8: The `proficiency` tag is empty, violating rule 3.
+2. Line 28: The `sys_updated_by` is 'abhishek.suryvanshi', violating rule 5 (must be 'admin').
