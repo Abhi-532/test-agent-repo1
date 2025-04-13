@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_tool_m2m">
+  <sn_aia_agent_tool_m2m action="INSERT_OR_UPDATE">
+    <active>true</active>
+    <agent display_value="GitHub branch management AI agent">8139f034ff7822106306ffffffffffe5</agent>
+    <description>This tool retrieves a list of branches from a specified GitHub repository using inputs such as the repository owner, repository name, branch protection filter (true, false, true/false or empty string), and the number of records to retrieve (rounded up to the nearest multiple of 30). If the branch protection filter is not provided, it defaults to an empty value. If the owner or repository value is missing, the user will be prompted to provide it. The output includes branch details such as the name, latest commit SHA, and protection status. A GitHub connection with credentials is required. Production use of this tool requires a subscription—refer to ServiceNow IntegrationHub licensing for details.</description>
+    <display_output>true</display_output>
+    <execution_mode>supervised</execution_mode>
+    <inputs>[{"name":"protected","description":"Protected","mandatory":true,"type":"choice"},{"name":"record_count","description":"Record Count","mandatory":true,"type":"integer"},{"name":"repository","description":"Repository","mandatory":true,"type":"string"},{"name":"owner","description":"Owner","mandatory":true,"type":"string"}]</inputs>
+    <max_auto_executions>10</max_auto_executions>
+    <name>Look up Branches Stream</name>
+    <output_transformation_strategy>none</output_transformation_strategy>
+    <pre_message></pre_message>
+    <sys_class_name>sn_aia_agent_tool_m2m</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2025-04-06 15:42:27</sys_created_on>
+    <sys_domain>global</sys_domain>
+    <sys_id>c9393434ff7822106306ffffffffff13</sys_id>
+    <sys_mod_count>4</sys_mod_count>
+    <sys_name>Look up Branches Stream</sys_name>
+    <sys_package display_value="GitHub Spoke" source="sn_github_spoke">9a025c563b22330006f1600713efc4cf</sys_package>
+    <sys_policy>read</sys_policy>
+    <sys_scope display_value="GitHub Spoke">9a025c563b22330006f1600713efc4cf</sys_scope>
+    <sys_update_name>sn_aia_agent_tool_m2m_c9393434ff7822106306ffffffffff13</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2025-04-07 05:25:26</sys_updated_on>
+    <tool display_value="Look up Branches Stream">0d393434ff7822106306ffffffffff10</tool>
+    <tool_attributes>{}</tool_attributes>
+  </sn_aia_agent_tool_m2m>
+</record_update>
