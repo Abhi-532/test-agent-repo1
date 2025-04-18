@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_tool_m2m">
+  <sn_aia_agent_tool_m2m action="INSERT_OR_UPDATE">
+    <active>false</active>
+    <agent display_value="GitHub branch management AI agent">8139f034ff7822106306ffffffffffe5</agent>
+    <description>This tool creates a new branch in a GitHub repository using a specified commit SHA, incorporating all files up to that commit. Required inputs include the repository owner, repository name, desired branch name, and the commit SHA. If the repository owner value is not provided, the user will be prompted to enter it. The output confirms success or provides error messages for issues such as invalid credentials, a non-existent SHA, or if the branch already exists. A GitHub connection and credential alias are necessary, and a subscription is required for production use. For more information, refer to the documentation.</description>
+    <display_output>true</display_output>
+    <execution_mode>supervised</execution_mode>
+    <inputs>[{"name":"branch","description":"Branch","mandatory":true,"type":"string"},{"name":"repository","description":"Repository","mandatory":true,"type":"string"},{"name":"sha","description":"SHA","mandatory":true,"type":"string"},{"name":"owner","description":"Owner","mandatory":true,"type":"string"}]</inputs>
+    <max_auto_executions>10</max_auto_executions>
+    <name>Create Branch</name>
+    <output_transformation_strategy>none</output_transformation_strategy>
+    <pre_message>Starting branch creation process</pre_message>
+    <sys_class_name>sn_aia_agent_tool_m2m</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2025-04-06 15:42:27</sys_created_on>
+    <sys_domain>global</sys_domain>
+    <sys_id>05393434ff7822106306ffffffffff02</sys_id>
+    <sys_mod_count>3</sys_mod_count>
+    <sys_name>Create Branch</sys_name>
+    <sys_package display_value="GitHub Spoke" source="sn_github_spoke">9a025c563b22330006f1600713efc4cf</sys_package>
+    <sys_policy>read</sys_policy>
+    <sys_scope display_value="GitHub Spoke">9a025c563b22330006f1600713efc4cf</sys_scope>
+    <sys_update_name>sn_aia_agent_tool_m2m_05393434ff7822106306ffffffffff02</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2025-04-07 05:25:26</sys_updated_on>
+    <tool display_value="Create Branch">4539f034ff7822106306ffffffffffff</tool>
+    <tool_attributes>{}</tool_attributes>
+  </sn_aia_agent_tool_m2m>
+</record_update>
