@@ -1,4 +1,4 @@
-,{
+function add(a, b) {
   return a + b;
 }
 
@@ -18,4 +18,10 @@ function divide(a, b) {
   }
 }
 
-module.exports = { add, subtract, multiply, divide };
+function validateInputs(a, b) {
+  if (typeof a !== 'number' || typeof b !== 'number') {
+    throw new Error('Inputs must be numbers');
+  }
+}
+
+module.exports = { add, subtract, multiply, divide, validateInputs };
